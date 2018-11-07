@@ -21,3 +21,5 @@ def draw():
     ellipse(x+30, height/2, 50, 50)
     fill(50,50,50)
     ellipse(x+10, height/2-20, 50, 50)
+    rect(30, 20, 55, 55, 3, 6, 12, 18)
+    rect(30, 20, 55, 55, 3, 6, 12, 18)
