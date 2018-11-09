@@ -7,7 +7,7 @@ def setup():
     global back_img
 
     size(512, 480)
-    sat_img = loadImage("laugh.png")
+    sat_img = loadImage("laugh_trans.png")
     back_img = loadImage("mario_back.png")
 
 
