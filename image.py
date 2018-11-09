@@ -4,9 +4,13 @@
 
 def setup():
     global sat_img
-    size(640, 480)
-    sat_img = loadImage("image0.png")
-    
+    global back_img
+
+    size(512, 480)
+    sat_img = loadImage("laugh.png")
+    back_img = loadImage("mario_back.png")
+
+
 def draw():
-    background(255)
-    image(sat_img, 50, 50, 550, 550)
+    background(back_img)
+    image(sat_img, 50, 50, 50, 50)
